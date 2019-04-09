@@ -1,7 +1,7 @@
 # ontology-population
 
 ## Data Extraction 
-### 1 commit
+### First Update
 
 Twitter API, Twitter4j, Java y Maven.
 
