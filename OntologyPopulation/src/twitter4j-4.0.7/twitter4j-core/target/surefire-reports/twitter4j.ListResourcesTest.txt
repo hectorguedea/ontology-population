@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.ListResourcesTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in twitter4j.ListResourcesTest
+testUserListsOwnerships()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+
+testListMemberMethods()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.ListResourcesTest
+
+testListSubscribersMethods()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.ListResourcesTest
+
+testPagingCountDosentWork1()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.ListResourcesTest
+
+testPagingCountDosentWork2()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.ListResourcesTest
+
+testListMethods()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.ListResourcesTest
+
+testRemoveListMembers()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.ListResourcesTest
+

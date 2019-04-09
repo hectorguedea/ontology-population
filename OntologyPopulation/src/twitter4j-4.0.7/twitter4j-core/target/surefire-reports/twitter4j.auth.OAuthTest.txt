@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.auth.OAuthTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.029 sec <<< FAILURE! - in twitter4j.auth.OAuthTest
+testConstructRequestURL()  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+
+testAccessToken()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testIllegalStatus()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testNormalizeRequestParameters()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testOAuth()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testXAuth()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testSign()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testBrowserClient()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testSigninWithTwitter()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testDeterministic()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testHeader()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testDesktopClient()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+
+testEncodeParameter()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.auth.OAuthTest
+

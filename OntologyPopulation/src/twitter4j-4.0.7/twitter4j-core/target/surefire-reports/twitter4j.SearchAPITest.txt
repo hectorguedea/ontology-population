@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.SearchAPITest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in twitter4j.SearchAPITest
+testEasyPaging()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+
+testQuery()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.SearchAPITest
+
+testEasyPaging2()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.SearchAPITest
+
+testSearch()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.SearchAPITest
+

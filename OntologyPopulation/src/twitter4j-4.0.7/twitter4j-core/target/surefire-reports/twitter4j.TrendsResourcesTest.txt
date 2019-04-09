@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.TrendsResourcesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in twitter4j.TrendsResourcesTest
+testLocalTrendsMethods()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+

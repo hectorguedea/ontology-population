@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.TwitterTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in twitter4j.TwitterTest
+testGetScreenName()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+
+testGetAccessLevel()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTest
+
+testRateLimitStatus()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTest
+

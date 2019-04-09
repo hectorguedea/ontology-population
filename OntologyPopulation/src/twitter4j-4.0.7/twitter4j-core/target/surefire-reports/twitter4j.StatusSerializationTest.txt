@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.StatusSerializationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in twitter4j.StatusSerializationTest
+testSerializationWithScopes()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusSerializationTest.testSerializationWithScopes(StatusSerializationTest.java:44)
+

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.TweetsResourcesTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in twitter4j.TweetsResourcesTest
+testRetweetMethods()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+
+testEntities()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testShowStatus()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testOEmbedWithWidgetType()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testStatusMethods()  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testLookup()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testOEmbed()  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testUploadMediaByStream()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+
+testUploadMediaByFile()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TweetsResourcesTest
+

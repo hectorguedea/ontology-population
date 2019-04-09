@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.KryoSerializationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.092 sec <<< FAILURE! - in twitter4j.KryoSerializationTest
+testKryoSerialization()  Time elapsed: 0.089 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at twitter4j.KryoSerializationTest.beforeEach(KryoSerializationTest.java:31)
+Caused by: org.apache.commons.logging.LogConfigurationException: org.apache.commons.logging.LogConfigurationException: No suitable Log constructor [Ljava.lang.Class;@6a472554 for org.apache.commons.logging.impl.Log4JLogger (Caused by java.lang.NoClassDefFoundError: org/apache/log4j/Category) (Caused by org.apache.commons.logging.LogConfigurationException: No suitable Log constructor [Ljava.lang.Class;@6a472554 for org.apache.commons.logging.impl.Log4JLogger (Caused by java.lang.NoClassDefFoundError: org/apache/log4j/Category))
+	at twitter4j.KryoSerializationTest.beforeEach(KryoSerializationTest.java:31)
+Caused by: org.apache.commons.logging.LogConfigurationException: No suitable Log constructor [Ljava.lang.Class;@6a472554 for org.apache.commons.logging.impl.Log4JLogger (Caused by java.lang.NoClassDefFoundError: org/apache/log4j/Category)
+	at twitter4j.KryoSerializationTest.beforeEach(KryoSerializationTest.java:31)
+Caused by: java.lang.NoClassDefFoundError: org/apache/log4j/Category
+	at twitter4j.KryoSerializationTest.beforeEach(KryoSerializationTest.java:31)
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Category
+	at twitter4j.KryoSerializationTest.beforeEach(KryoSerializationTest.java:31)
+

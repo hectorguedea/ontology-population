@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.StatusJSONImplTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.038 sec <<< FAILURE! - in twitter4j.StatusJSONImplTest
+testExtendedTweetExtendedMode()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testExtendedTweetExtendedMode(StatusJSONImplTest.java:212)
+
+testExtendedMediaEntities()  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testExtendedMediaEntities(StatusJSONImplTest.java:90)
+
+testLangWithLangFieldDefined()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testLangWithLangFieldDefined(StatusJSONImplTest.java:76)
+
+testIsRetweetedWhenStatusIsNotRetweeted()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testIsRetweetedWhenStatusIsNotRetweeted(StatusJSONImplTest.java:40)
+
+testIsRetweetedWhenStatusIsRetweeted()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testIsRetweetedWhenStatusIsRetweeted(StatusJSONImplTest.java:31)
+
+testIsRetweetedWhenStatusHasNoRetweetedProperty()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testIsRetweetedWhenStatusHasNoRetweetedProperty(StatusJSONImplTest.java:49)
+
+testExtendedTweetCompatibilityModeStreaming()  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testExtendedTweetCompatibilityModeStreaming(StatusJSONImplTest.java:163)
+
+testQuotedStatus()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testQuotedStatus(StatusJSONImplTest.java:103)
+
+testAcitivityWithheldInCountries()  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testAcitivityWithheldInCountries(StatusJSONImplTest.java:134)
+
+testLoadingGeoLocationWithCoordinatesField()  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testLoadingGeoLocationWithCoordinatesField(StatusJSONImplTest.java:61)
+
+testExtendedTweetCompatibilityMode()  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testExtendedTweetCompatibilityMode(StatusJSONImplTest.java:148)
+
+testReturningNullForMissingIsoLanguageCode()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testReturningNullForMissingIsoLanguageCode(StatusJSONImplTest.java:18)
+
+testExtendedTweetCompatibilityModeStreaming_gif()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.StatusJSONImpl
+	at twitter4j.StatusJSONImplTest.testExtendedTweetCompatibilityModeStreaming_gif(StatusJSONImplTest.java:184)
+

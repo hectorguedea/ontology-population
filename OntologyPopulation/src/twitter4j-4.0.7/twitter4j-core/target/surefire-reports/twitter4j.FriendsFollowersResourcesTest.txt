@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.FriendsFollowersResourcesTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.092 sec <<< FAILURE! - in twitter4j.FriendsFollowersResourcesTest
+testLookupFriendships()  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.ArithmeticException: / by zero
+
+testIncomingOutgoingFriendships()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+
+testSocialGraphMethods()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+
+testFriendsFollowersList()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+
+testRelationship()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+
+testFriendsFolowers()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+
+testCreateDestroyFriend()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+
+testFriendsFollowersListWithSkipStatusIncludeUserEntities()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.FriendsFollowersResourcesTest
+

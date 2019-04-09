@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: twitter4j.UsersResourcesTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in twitter4j.UsersResourcesTest
+testMuteMethods()  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.TwitterTestBase
+
+testSearchUser()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
+testAccountProfileImageUpdates()  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
+testShowUser()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
+testAccountMethods()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
+testLookupUsers()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
+testBanner()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
+testBlockMethods()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class twitter4j.UsersResourcesTest
+
