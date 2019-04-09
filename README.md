@@ -1,6 +1,6 @@
 # ontology-population
 
-##Data Extraction 
+## Data Extraction 
 ### 1 commit
 
 Twitter API, Twitter4j, Java y Maven.
